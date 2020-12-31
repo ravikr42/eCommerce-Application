@@ -148,3 +148,33 @@
 2020-12-31 14:17:49.449  INFO 18336 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-12-31 14:17:49.459  INFO 18336 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 2020-12-31 14:17:49.461  INFO 18336 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-31 14:21:11.862  INFO 12996 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on kumarravi-W03 with PID 12996 (C:\udacity\Java_Developer_ND\securityAndDevOps\Assignments\eCommerce-application\target\classes started by kumarravi in C:\udacity\Java_Developer_ND\securityAndDevOps\Assignments\eCommerce-application)
+2020-12-31 14:21:11.870  INFO 12996 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-31 14:21:12.980  INFO 12996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-31 14:21:13.115  INFO 12996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 4 repository interfaces.
+2020-12-31 14:21:13.991  INFO 12996 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cbbff71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-31 14:21:14.415  INFO 12996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-31 14:21:14.452  INFO 12996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-31 14:21:14.453  INFO 12996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-31 14:21:14.461  INFO 12996 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-31 14:21:14.461  INFO 12996 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2020-12-31 14:21:14.461  INFO 12996 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-31 14:21:14.461  INFO 12996 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-31 14:21:14.465  INFO 12996 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2020-12-31 14:21:14.733  INFO 12996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-31 14:21:14.734  INFO 12996 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2718 ms
+2020-12-31 14:21:14.968  INFO 12996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-31 14:21:15.125  INFO 12996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-31 14:21:15.196  INFO 12996 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-31 14:21:15.301  INFO 12996 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-31 14:21:15.304  INFO 12996 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-31 14:21:15.538  INFO 12996 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-31 14:21:15.777  INFO 12996 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-31 14:21:17.162  INFO 12996 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-31 14:21:18.170  WARN 12996 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-31 14:21:18.285  INFO 12996 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8fec08d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@dcc3ab74, org.springframework.security.web.header.HeaderWriterFilter@c6e4f9f0, org.springframework.web.filter.CorsFilter@adb1eb73, org.springframework.security.web.authentication.logout.LogoutFilter@af3d141f, com.example.demo.security.JWTAuthenticationFilter@8f934fc0, com.example.demo.security.JWTAuthenticationVerficationFilter@453042bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fe230955, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b38498c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@91901550, org.springframework.security.web.session.SessionManagementFilter@e2bcbabc, org.springframework.security.web.access.ExceptionTranslationFilter@7811c927, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ce47bf94]
+2020-12-31 14:21:18.523  INFO 12996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-31 14:21:18.790  INFO 12996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-31 14:21:18.796  INFO 12996 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 7.921 seconds (JVM running for 9.118)
