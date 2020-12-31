@@ -1,0 +1,5 @@
+target/
+.css/
+.idea/
+.img/
+coverage/
