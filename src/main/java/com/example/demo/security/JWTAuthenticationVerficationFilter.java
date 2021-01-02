@@ -40,8 +40,8 @@ public class JWTAuthenticationVerficationFilter extends BasicAuthenticationFilte
         chain.doFilter(req, res);
     }
 
-    private UsernamePasswordAuthenticationToken getAuthentication(HttpServletRequest req) {
-        String token = req.getHeader(SecurityConstants.HEADER_STRING);
+    private UsernamePasswordAuthenticationToken getAuthentication(HttpServletRequest request) {
+        String token = request.getHeader(SecurityConstants.HEADER_STRING);
         if (token != null) {
             String user = JWT.require(HMAC512(SecurityConstants.SECRET.getBytes())).build()
                     .verify(token.replace(SecurityConstants.TOKEN_PREFIX, ""))
